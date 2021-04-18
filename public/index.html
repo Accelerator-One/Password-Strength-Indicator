@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> LOGIN </title>
+
+  <!-- Dependencies -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <script async src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script defer src="index.js"></script>
+
+</head>
+<body>
+
+  <form id="login">
+
+    <div id="form-header">
+      <h4> LOGIN </h4><br/>
+      <p> Before my patience breaks...</p>
+    </div>
+
+    <div id="form-body">
+
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="user-label">
+          <img src="vendor/icons/person.svg" alt="Email" />
+        </span>
+        <input id="email" type="text" class="form-control" placeholder="Enter email" aria-label="email"
+          aria-describedby="user-label">
+      </div>
+      <br/>
+
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="password-label">
+          <img src="vendor/icons/lock.svg" alt="Password" />
+        </span>
+        <input id="password" type="password" class="form-control" placeholder="Enter password" aria-label="password"
+          aria-describedby="password-label">
+
+      </div>
+      <br/>
+
+    </div>
+
+    <div id="form-footer" class="d-grid gap-2">
+
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+
+      <button type="button" class="btn btn-lg btn-block btn-outline-info"> Login </button>
+
+      <br/><small>Not having an account? <a href="#">REGISTER</a></small>
+
+    </div>
+
+  </form>
+
+</body>
+</html>
